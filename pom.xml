@@ -6,12 +6,9 @@
 
   <groupId>com.githubactionscicd</groupId>
   <artifactId>hello</artifactId>
-
-  <!-- TODO change the version number with each release -->
-  <version>2.0</version>
+  <version>99</version>
 
   <name>hello</name>
-
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -79,7 +76,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-          <url>https://maven.pkg.github.com/console6500/cautious-carnival</url>
+      <url>https://maven.pkg.github.com/console6500/cautious-carnival</url>
     </repository>
   </distributionManagement>
 </project>
