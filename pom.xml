@@ -79,7 +79,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-          <!-- TODO change the username and repo name --> <url>https://maven.pkg.github.com/REPLACE_WITH_YOUR_GITHUB_USERNAME/REPLACE_WITH_YOUR_GITUB_REPO_NAME</url>
+          <url>https://maven.pkg.github.com/console/cautious-carnival</url>
     </repository>
   </distributionManagement>
 </project>
