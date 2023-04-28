@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
-  <groupId>console6500</groupId>
   <artifactId>hello</artifactId>
-  <version>100</version>
+  <version>101</version>
+  <groupId>console6500</groupId>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/console6500/cautious-carnival</url>
+    </repository>
+  </distributionManagement>
 
   <name>hello</name>
-  <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <properties>
@@ -72,12 +76,5 @@
       </plugins>
     </pluginManagement>
   </build>
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/console6500/cautious-carnival</url>
-    </repository>
-  </distributionManagement>
 </project>
 

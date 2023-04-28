@@ -6,7 +6,7 @@ package com.githubactionscicd;
  */
 public class App
 {
-    public static String main()
+    public static void main(String[] args)
     {
         return "Hello, GitHub Actions!";
     }
