@@ -11,7 +11,7 @@
   <version>1.0</version>
 
   <name>hello</name>
-    
+
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -79,7 +79,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-          <url>https://maven.pkg.github.com/console/cautious-carnival</url>
+          <url>https://maven.pkg.github.com/console6500/cautious-carnival</url>
     </repository>
   </distributionManagement>
 </project>
